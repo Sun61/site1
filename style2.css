@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearFix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.padding-site5 {
+    padding-left: 98px;
+
+}
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.range {
+
+    position: relative;
+}
+
+.slider2 {
+    width: 1268px;
+    clear: both;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+
+.menu {
+    float: right;
+}
+
+.menuRange {
+    width: 1006px;
+    float: left;
+    background-image: url(img/back.jpg);
+    padding-right: 34px;
+    padding-left: 326px;
+    padding-top: 28px;
+    padding-bottom: 29px;
+    margin-top: 29px;
+
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+
+
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link-2 {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 17px;
+    letter-spacing: 1.8px;
+    padding: 10px 17px;
+
+}
+
+.trending {
+    text-decoration: none;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 64px;
+
+}
+
+.trending:hover {
+    color: #6c6c6c;
+}
+
+.menu-link:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+
+.menu-link-2:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+}
+
+
+.button-red {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 50px;
+    background-color: #f44336;
+    width: 510px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    margin-top: 31px;
+    margin-bottom: 49px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.01px;
+    text-transform: uppercase;
+    /* Text style for "Order Us" */
+    letter-spacing: 4.4px;
+}
+
+.button-red:hover {
+    background-color: gray;
+}
+
+
+.circle:hover*** {
+    background-color: #212121;
+}
+
+
+
+.catalog2 {
+    margin-top: 68px;
+}
+
+.product2 {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 120px;
+}
+
+
+
+img[alt="photo"]:hover {
+    outline: 2px solid grey;
+}
+
+
+img[alt="google"] {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.contact {
+    float: left;
+    margin-left: 97px;
+    padding-top: 112px;
+
+}
+
+.left {
+    float: left;
+    margin-top: 24px;
+}
+
+.information {
+    float: left;
+    margin-left: 81px;
+    padding-top: 112px;
+}
+
+.information a {
+    text-decoration: none;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "Sales term" */
+    letter-spacing: 0.7px;
+}
+
+
+.right {
+    margin-left: 240px;
+    margin-top: 24px;
+
+}
+
+.touch {
+    margin-left: 898px;
+    padding-top: 112px;
+}
+
+
+.touch p {
+    margin-top: 24px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+footer {
+    height: 384px;
+    clear: both;
+    background-color: #f7f7f7;
+    padding-bottom: 30px;
+}
+
+
+footer h2 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.contact p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 24px;
+    color: #6c6c6c;
+}
+
+.information li {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    list-style-type: none;
+}
+
+
+
+input {
+    margin-top: 26px;
+    width: 351px;
+    height: 48px;
+    padding-left: 19px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+form {
+    position: relative;
+
+}
+
+.touch img {
+    position: absolute;
+    top: 45px;
+    left: 345px;
+}
+
+.copyr {
+    margin-top: 70px;
+    margin-left: 98px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "©,  Copyri" */
+    letter-spacing: 0.6px;
+    float: left;
+
+}
+
+.terms {
+    float: right;
+    margin-top: 70px;
+    margin-right: 90px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.social {
+    float: left;
+    margin-left: 143px;
+    margin-top: 70px;
+}
+
+.chair {
+    float: left;
+    margin-top: 72px;
+    margin-left: 98px;
+
+}
+
+.chairH2,
+.hot,
+.price {
+    text-align: center;
+}
+
+.chairH2 {
+    /* Style for "Fishnet Ch" */
+
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.hot {
+    color: #e53935;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48.02px;
+    text-transform: uppercase;
+    /* Text style for "Hot Deal" */
+    letter-spacing: 1.8px;
+}
+
+.price {
+    color: #212121;
+    font-family: Gotham;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48.02px;
+    /* Text style for "" */
+    font-size: 48px;
+    /* Text style for "36.7" */
+    font-size: 72px;
+}
+
+.block {
+    width: 100%;
+}
+
+.chair-text {
+    width: 499px;
+    float: right;
+    margin-right: 138px;
+    margin-top: 119px;
+}
+
+.small-chair {
+    margin-left: 248px;
+    margin-bottom: 245px;
+}
+
+.small-chair a {
+    margin-right: 10px;
+}
+
+.small-chair a:hover {
+    outline: 1px solid gray;
+}
+
+.description {
+    color: #212121;
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.01px;
+    /* Text style for "The majest" */
+    letter-spacing: 1px;
+}
+
+.a {
+    float: right;
+    padding: 10px;
+    padding-top: 17px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+
+
+}
+
+.aa {
+    float: right;
+    margin-right: 88px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.a:hover {
+    color: red;
+}
+
+.description {
+    color: #212121;
+    font-family: Gotham;
+    font-size: 16px;
+
+    line-height: 20.01px;
+    /* Text style for "The majest" */
+    letter-spacing: 1.4px;
+}
